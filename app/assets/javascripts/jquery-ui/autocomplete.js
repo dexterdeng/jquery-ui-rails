@@ -384,7 +384,7 @@ $.widget( "ui.autocomplete", {
 				that.xhr = $.ajax({
 					url: url,
 					data: request,
-					dataType: "json",
+					dataType: "jsonp",
 					success: function( data ) {
 						response( data );
 					},
